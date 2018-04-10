@@ -1,5 +1,5 @@
 # cursor-vcode
-web端实现app中常见的验证码输入特效
+
 **Web 端 实现 app “输入验证码 ”的效果**
 
 ![preview-qr.png](https://user-gold-cdn.xitu.io/2018/4/10/162ae88af6820e3b?w=210&h=211&f=png&s=6089 '二维码预览')
@@ -28,7 +28,7 @@ web端实现app中常见的验证码输入特效
 
 然后每个label for属性指向同一个 id 为`vcode` 的input，
 
-为了能够出发input焦点， 将input 改透明度样式隐藏，
+为了能够触发input焦点， 将input 改透明度样式隐藏，
 
 这样就实现了 点击label触发 input焦点，调用键盘。
 
