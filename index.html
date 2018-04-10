@@ -31,8 +31,14 @@
   }
   .v-code {
     margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: relative;
     width: 280px;
@@ -161,7 +167,7 @@
     watch: {
       code(newVal) {
         if (newVal.length > 5) {
-          this.telDisabled = true
+          // this.telDisabled = true
           this.$refs.vcode.blur()
           setTimeout(() => {
             alert(`vcode: ${this.code}`)
