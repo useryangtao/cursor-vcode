@@ -1,14 +1,18 @@
 # cursor-vcode
 web端实现app中常见的验证码输入特效
+**Web 端 实现 app “输入验证码 ”的效果**
+
+![preview-qr.png](https://user-gold-cdn.xitu.io/2018/4/10/162ae88af6820e3b?w=210&h=211&f=png&s=6089 '二维码预览')
+[https://github.com/useryangtao/cursor-vcode](https://github.com/useryangtao/cursor-vcode)
+
 
 ## 起因 _（只是因为在微信上多唠了两句...）_
 
 前两天跟一个哥们唠嗑，讨论怎么实现uber, 滴滴的验证码输入的效果。
 
 ![](https://user-gold-cdn.xitu.io/2018/4/10/162adf0e9812625e?w=320&h=391&f=png&s=17481)
-**跳过过程请点击：**
 
- [https://github.com/useryangtao/cursor-vcode](https://github.com/useryangtao/cursor-vcode)
+
 
 ## 初构思
 **方案1:** 
@@ -36,6 +40,7 @@ web端实现app中常见的验证码输入特效
 ### 实现效果
 
 ![](https://user-gold-cdn.xitu.io/2018/4/10/162ae7b47a9a186e?w=375&h=803&f=gif&s=1868823)
+
 
 **觉得光标效果挺有意思的，便用 `animate` 搞了下**
 
@@ -124,6 +129,13 @@ var app = new Vue({
 
 
 ### 如有雷同，百分百巧合
-**github地址:**
+
+#### 预览
+![preview-qr.png](https://user-gold-cdn.xitu.io/2018/4/10/162ae88af6820e3b?w=210&h=211&f=png&s=6089 '二维码预览')
+
+
+#### github地址:
 
 [https://github.com/useryangtao/cursor-vcode](https://github.com/useryangtao/cursor-vcode)
+
+如果觉得可以，老铁评论走一波，🤙🤙🤙
