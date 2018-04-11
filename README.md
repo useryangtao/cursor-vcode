@@ -3,9 +3,12 @@
 **Web 端 实现 app “输入验证码 ”的效果**
 
 ![preview-qr.png](https://user-gold-cdn.xitu.io/2018/4/10/162ae88af6820e3b?w=210&h=211&f=png&s=6089 '二维码预览')
-![](https://user-gold-cdn.xitu.io/2018/4/10/162adf0e9812625e?w=320&h=391&f=png&s=17481)
 
-## 实现
+### 效果预览
+
+![](https://user-gold-cdn.xitu.io/2018/4/10/162ae7b47a9a186e?w=375&h=803&f=gif&s=1868823)
+
+### 效果实现思路
 
 使用label标签做显示验证码的框，
 
@@ -14,10 +17,6 @@
 为了能够触发input焦点， 将input 改透明度样式隐藏，
 
 这样就实现了 点击label触发 input焦点，调用键盘。
-
-### 效果预览
-
-![](https://user-gold-cdn.xitu.io/2018/4/10/162ae7b47a9a186e?w=375&h=803&f=gif&s=1868823)
 
 
 ### 结构
