@@ -164,6 +164,7 @@
     },
     watch: {
       code(newVal) {
+        this.code = newVal.replace(/[^\d]/g,'')
         if (newVal.length > 5) {
           // this.telDisabled = true
           this.$refs.vcode.blur()
